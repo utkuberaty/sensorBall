@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_nav"
+    app:startDestination="@id/motionListFragment">
+
+    <fragment
+        android:id="@+id/motionListFragment"
+        android:name="com.utku.sensorball.ui.motion_list.MotionListFragment"
+        android:label="MotionListFragment">
+        <action
+            android:id="@+id/action_motionListFragment_to_motionRecordFragment"
+            app:destination="@id/motionRecordFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/motionRecordFragment"
+        android:name="com.utku.sensorball.ui.motion_record.MotionRecordFragment"
+        android:label="MotionRecordFragment" >
+        <argument
+            android:name="is_record"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+
+
+</navigation>
