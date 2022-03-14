@@ -1,6 +1,6 @@
 # SensorBall
 
-This is a example for Android sensors and custom view. Custome view moves using android sensors 3-axis movement values. Application uses single activity multiple fragment design.
+This is a example for Android sensors and custom view. Custom view moves using android sensors 3-axis movement values. Application uses single activity multiple fragment design.
 
 ## Libraries
 
@@ -20,6 +20,6 @@ First screen has RecyclerView and FloatingActionButton. User can see record with
 
 ### Second Screen
 
-Second Screen records movement of custome view. Custome view moves are dependet to android sensors. When device tilt down it goes up, when device tilt up it goes down. This record finish after 10 second and it record with 100ms spaces.
+Second Screen records movement of custom view. Custom view moves are depended to android sensors. When device tilt down it goes up, when device tilt up it goes down. This record finish after 10 second and it record with 100ms spaces.
 
 <img title="" src="screens/2022-03-14-10-46-34-image.png" alt="" width="209">
